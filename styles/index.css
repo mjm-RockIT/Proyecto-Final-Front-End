@@ -1,0 +1,68 @@
+selector{
+  propiedad:valor a cambiar;
+
+}
+
+
+
+ .titulo {
+          width: auto;
+          height: auto;
+          border-style:double;
+          border-color: #3E2723 ;
+          color: #3E2723;
+          padding-left: auto;
+margin-left: auto;
+margin-top: auto;
+
+
+ }
+#h1 {
+     font-size: 100px;
+    text-align: center;
+    font-family: cursive;
+    color:#3E2723;
+    background-color:#F6DDCC  ;
+    margin-left: auto;
+
+}
+
+#h2 {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 70px;
+  text-align: center;
+  font-family: cursive;
+  background-color: #F6DDCC ;
+  color: #3E2723;
+
+}
+
+#pizzas{
+  text-align: center;
+  background-color: #F7DC6F;
+  font-family: cursive;
+
+
+}
+
+#empanadas{
+text-align: center;
+background-color: #F7DC6F;
+font-family: cursive;
+
+}
+
+#trensasrellenas{
+text-align: center;
+background-color: #F7DC6F;
+font-family: cursive;
+
+
+}
+
+#postres{
+  text-align: center;
+  background-color: #F7DC6F;
+  font-family: cursive;
+}
