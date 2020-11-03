@@ -35,3 +35,18 @@
       .logo_letras {
 
       }
+
+  main {
+    flex-direction: column;
+
+  }
+    #pizzas {
+      flex-direction: column;
+
+    }
+
+
+
+    .lista {
+      flex-direction: column;
+    }
