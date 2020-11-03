@@ -27,9 +27,6 @@
       .logo_imagen {
         width: 20%;
         justify-content: center;
-        align-items: flex-start;
-
-
       }
 
       .logo_letras {
@@ -37,16 +34,49 @@
       }
 
   main {
+    width: 100%;
     flex-direction: column;
 
   }
-    #pizzas {
+    .carta {
+      width: 100%;
       flex-direction: column;
+      justify-content: space-around;
 
     }
 
+      .titulo {
+        width: 100%;
+        border-top: rgb(255, 211, 17) 2px solid;
+        border-bottom: rgb(255, 211, 17) 2px solid;
+      }
+        h1 {
 
+        }
+      .contenedor {
+        width: 100%;
 
-    .lista {
-      flex-direction: column;
-    }
+      }
+
+        .preciospizzas {
+          flex-direction: column;
+          width: 25%;
+
+        }
+
+      .lista {
+        flex-direction: column;
+        text-align: center;
+
+      }
+      #empanadas_trenzas {
+        width: 100%;
+        justify-content: space-around;
+
+      }
+      .titulo_empanadas_trenzas {
+        width: 100%;
+        border-top: rgb(255, 211, 17) 2px solid;
+        border-bottom: rgb(255, 211, 17) 2px solid;
+        justify-content: space-around;
+      }
