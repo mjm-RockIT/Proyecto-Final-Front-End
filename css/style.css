@@ -26,10 +26,11 @@
     }
       .logo_imagen {
         width: 20%;
-        justify-content: center;
+        justify-content: flex-end;
       }
 
       .logo_letras {
+        justify-content: flex-start;
 
       }
 
@@ -47,10 +48,11 @@
 
       .titulo {
         width: 100%;
-        border-top: rgb(255, 211, 17) 2px solid;
-        border-bottom: rgb(255, 211, 17) 2px solid;
+        border-top: rgb(255, 211, 17) 5px solid;
+        border-bottom: rgb(255, 211, 17) 5px solid;
       }
         h1 {
+          font-size: 40px;
 
         }
       .contenedor {
@@ -76,7 +78,38 @@
       }
       .titulo_empanadas_trenzas {
         width: 100%;
-        border-top: rgb(255, 211, 17) 2px solid;
-        border-bottom: rgb(255, 211, 17) 2px solid;
+        border-top: rgb(255, 211, 17) 5px solid;
+        border-bottom: rgb(255, 211, 17) 5px solid;
         justify-content: space-around;
       }
+  footer {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    border-top: rgb(255, 211, 17) 5px solid;
+    border-bottom: rgb(255, 211, 17) 5px solid;
+  }
+
+
+
+  #galeria {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+
+  .foto {
+    margin: 15px;
+    flex-direction: column;
+
+  }
+
+  .imagen {
+    width: 500px;
+    height: 500px;
+  }
+
+h6 {
+  font-size: 30px
+}
