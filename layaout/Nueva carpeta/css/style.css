@@ -1,0 +1,115 @@
+*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+  }
+
+  title {
+  display: none;
+
+  }
+
+  body {
+    width: 100%;
+    margin: 0px;
+    flex-direction: column;
+
+  }
+
+    header {
+      background-color: rgb(255, 211, 17);
+      width: 100%;
+      height: 20vh;
+
+    }
+      .logo_imagen {
+        width: 20%;
+        justify-content: flex-end;
+      }
+
+      .logo_letras {
+        justify-content: flex-start;
+
+      }
+
+  main {
+    width: 100%;
+    flex-direction: column;
+
+  }
+    .carta {
+      width: 100%;
+      flex-direction: column;
+      justify-content: space-around;
+
+    }
+
+      .titulo {
+        width: 100%;
+        border-top: rgb(255, 211, 17) 5px solid;
+        border-bottom: rgb(255, 211, 17) 5px solid;
+      }
+        h1 {
+          font-size: 40px;
+
+        }
+      .contenedor {
+        width: 100%;
+
+      }
+
+        .preciospizzas {
+          flex-direction: column;
+          width: 25%;
+
+        }
+
+      .lista {
+        flex-direction: column;
+        text-align: center;
+
+      }
+      #empanadas_trenzas {
+        width: 100%;
+        justify-content: space-around;
+
+      }
+      .titulo_empanadas_trenzas {
+        width: 100%;
+        border-top: rgb(255, 211, 17) 5px solid;
+        border-bottom: rgb(255, 211, 17) 5px solid;
+        justify-content: space-around;
+      }
+  footer {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    border-top: rgb(255, 211, 17) 5px solid;
+    border-bottom: rgb(255, 211, 17) 5px solid;
+  }
+
+
+
+  #galeria {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+
+  .foto {
+    margin: 15px;
+    flex-direction: column;
+
+  }
+
+  .imagen {
+    width: 500px;
+    height: 500px;
+  }
+
+h6 {
+  font-size: 30px
+}
